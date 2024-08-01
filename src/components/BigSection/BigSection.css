@@ -1,0 +1,30 @@
+.bigLabel{
+    font-size: 48px !important;
+    font-weight: 600;
+    font-family: 'Silka', sans-serif;
+    color: #160E64;
+}
+.funnelVisibility, .accelerateRevenue{
+    height: 44px;
+    width: 175px;
+    color: #5F53D4 !important;
+    font-family: 'Switzer', sans-serif;
+    font-weight: 600;
+    background-color: #EAE7FA !important;
+}
+
+.accountContent h2{
+    font-size: 40px !important;
+    font-weight: 600;
+    font-family: 'Silka', sans-serif;
+    color: #160E64;
+}
+.coachSection.accountContent{
+    padding-top: 50%;
+}
+
+.exploreButton{
+    background-color: #5F53D4 !important;
+    height: 56px;
+    width: 250px;
+}

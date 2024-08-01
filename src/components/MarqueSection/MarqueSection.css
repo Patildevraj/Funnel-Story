@@ -1,0 +1,37 @@
+.marque{
+    margin-top: 380px;
+    font-family: 'Switzer', sans-serif;
+    color: #160E64;
+}
+
+/* src/Marquee.css */
+/* src/Marquee.css */
+.marque {
+    overflow: hidden;
+    position: relative;
+    background: #FFF; /* Light background color */
+    padding: 10px 0;
+    white-space: nowrap;
+  }
+  
+  .marquee {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+  }
+  
+  .marquee-item {
+    display: inline-block;
+    margin-right: 50px; /* Space between logos */
+    height: 33px; /* Adjust the height as needed */
+    width: auto;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

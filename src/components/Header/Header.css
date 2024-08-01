@@ -1,0 +1,76 @@
+.header {
+  /* background: linear-gradient(to right, #c3ec52, #0ba29d); */
+  padding: 10px 165px;
+  background: url('../../Assets/bg.png') no-repeat center center /cover;
+  height: 928px;
+  /* width: 100vh; */
+  font-family: 'Switzer', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header .navbar {
+  background: transparent;
+}
+
+.header .navbar-brand {
+  font-weight: bold;
+}
+
+a,
+#signUp,
+span.navbar-toggler-icon {
+  color: #160E64 !important;
+}
+
+button#reqDemo {
+  background-color: #5F53D4 !important;
+  height: 40px;
+}
+
+/* .header .nav-link {
+    color: #FFF;
+    margin-right: 15px;
+  } */
+
+.header .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* .header .navbar-toggler-icon { */
+/* background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); */
+/* } */
+
+.header .logo {
+  height: 40px;
+  width: auto;
+}
+
+.header .btn-primary {
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.header .btn-primary:hover {
+  background-color: #5a52cc;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    /* background: linear-gradient(to right, #c3ec52, #0ba29d); */
+    padding: 5px 0px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header .navbar-collapse {
+    justify-content: flex-start;
+  }
+
+  .header .btn-primary {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

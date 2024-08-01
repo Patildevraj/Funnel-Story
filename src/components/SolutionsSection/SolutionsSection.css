@@ -1,0 +1,84 @@
+.solutionsSection {
+    background-image: url('../../Assets/noise.png') no-repeat center center/cover;
+    height: 100%;
+}
+
+button.sol-firstbutton {
+    height: 44px;
+    width: 160px;
+    border-radius: 50px;
+    background-color: #202344;
+}
+
+button.sol-secondbutton {
+    background-color: #5F53D4;
+    height: 56px;
+    width: 250px;
+}
+
+.sol-title {
+    font-size: 48px;
+}
+
+.bgsolution {
+    background-color: #100C38;
+}
+
+.card1,
+.card2,
+.card3 {
+    height: 40px !important;
+    width: 40px !important;
+    position: relative;
+    bottom: 38%;
+    left: 42.5%;
+
+}
+
+img.cardbox {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    bottom: 15%;
+    left: 36%;
+}
+
+.card-body {
+    color: #fff !important;
+}
+
+.card {
+    border-radius: 32px !important;
+    text-align: center;
+    background-color: #202344 !important;
+    backdrop-filter: 10% !important;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Silka', sans-serif;
+}
+
+.topclip {
+    position: relative;
+    left: 58%;
+}
+
+.bottomclip {
+    position: relative;
+    left: 23.2%;
+    bottom: 48px;
+}
+
+.bottomclipholder {
+    position: relative;
+    left: 33%;
+    bottom: 28px;
+}
+
+.topclipholder {
+    position: relative;
+    left: 49%;
+    top: -19px;
+}

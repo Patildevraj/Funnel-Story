@@ -1,0 +1,80 @@
+.header-content {
+    margin: auto !important;
+    position: absolute;
+    top: 40px;
+    left: 165px;
+}
+
+.center-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 32px !important;
+}
+.header-title {
+    /* width:min-content; */
+    font-size: 64px;
+    font-weight: 600;
+    color: #160E64 !important;
+    font-family: 'Silka', sans-serif;
+    padding-top: 120px;
+}
+
+#Vector{
+    padding-left: 80px;
+    margin-top: -30px;
+}
+
+form button{
+    background-color: #5F53D4 !important;
+    position:absolute;
+    right: 31.3%;
+    top: 35.8%;
+    height: 48px;
+    width: 165px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header-subtitle {
+    margin: auto;
+    font-weight: 500px;
+    width: 730px;
+    padding-top: 20px;
+    color: #160E64 !important;
+}
+
+img.header-content:first-child {
+    margin-top: 0px !important;
+}
+
+span img {
+    margin-bottom: 50px;
+}
+
+form {
+    width: 600px;
+    /* margin-left: 205px; */
+    height: 64px;
+    text-align: center;
+    margin: auto;
+
+}
+
+input, button{
+    border-radius: 20px !important;
+}
+
+
+.group8Image {
+    /* padding-left: 165px; */
+    position: absolute;
+    top: 573px;
+    left: 142px;
+    width: 81%;
+    /* border: 0.001px solid grey; */
+}
