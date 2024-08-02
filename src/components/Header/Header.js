@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container d-flex justify-content-around align-items-center">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="# ">
                         <img src={logo} alt="FunnelStory Logo" className="logo" />
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
